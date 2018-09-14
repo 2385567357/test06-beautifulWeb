@@ -4,70 +4,76 @@
     list-style: none;
     text-align: center;
     text-decoration: none;
-
+    box-sizing: border-box;
 }
 .top{
-    width: 100%;
-    height: 990px;
-    background-image: url(web-assets/图层\ 1.png);
+    height: 680px;
+    background-image: url(web-assets/top-bgc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     overflow: hidden;
     color: white;
 }
 .top>h1{
-    margin-top: 215px;
-    font-size: 62px;
+    margin-top: 125px;
+    font-size: 42px;
 }
 .top>p{
-        width: 767px;
+        width: 560px;
         margin: 0 auto;
-        font-size: 20px;
+        font-size: 14px;
         line-height: 32px;
-        padding-top: 80px;
-        margin-bottom: 90PX;
+        padding-top: 57px;
+        margin-bottom: 65PX;
         opacity: .7;
     }
 .top>div{
         margin: 0 auto;
-        padding-top: 45px;
+        padding-top: 38px;
         border-width: 1px;
         border-color: rgb(255, 255, 255);
         border-style: solid;
         border-radius: 2px;
         left: 315px;
         top: 530px;
-        width: 968px;
-        height: 248px;
+        width: 700px;
+        height: 220px;
         box-sizing: border-box;
       }
 .top>div>h2{
-    font-size: 16px;
-    margin-bottom: 10px;
+    font-size: 12px;
+    margin-bottom: 7px;
 }
 .top>div>P{
-    font-size: 12px;
+    font-size: 11px;
     opacity: .3;
-    margin-bottom: 40px;
+    margin-bottom: 28px;
 }
 .Input_Field {
-    margin-right: 20px;
+    margin-right: 15px;
     border-width: 1px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
     border-radius: 2px;
-    width: 290px;
-    height: 48px;
-    opacity: .2;
+    width: 200px;
+    height: 35px;
+    opacity: .7;
+    background-color:rgba(0,0,0,0);
   }
   .Sign_Up {
-    font-size: 12px;
+    font-size: 10px;
     color: rgb(20, 20, 20);
-    text-transform: uppercase;
     line-height: 1.833;
     text-align: center;
-    font-family: "Montserrat";
-    width: 120px;
-    height: 48px;
+    width: 88px;
+    height: 35px;
   }
+  /* 头部结束 */
+  .content1{
+      height: 670px;
+  }
+  
+  
   
         
   
