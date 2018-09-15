@@ -113,6 +113,10 @@
   .content1 ul li:nth-child(3){
     top: 260px;
 }
+.content1 ul li:nth-child(3) h2{
+    width: 300px;
+    text-align: left;
+}
   .content1 ul li:nth-child(4){
     top: 260px;
     right:20px;
@@ -187,7 +191,7 @@
  }
  /* content3结束 */
  .content4{
-     height: 700px;
+     height: 750px;
      padding-top: 100px;
      border-bottom: 1px solid rgba(94, 93, 93, 0.3);
  }
@@ -246,6 +250,79 @@
     position: absolute;
     top: 400px;
 }
+  /* .content4结束 */
+  .content5{
+      width: 58%;
+      height: 800px;
+      margin: 0 auto;
+      padding-top: 60px;
+     border-bottom: 1px solid rgba(94, 93, 93, 0.3);
+  }
+  .content5 p{
+      width: 80%;
+      padding-top: 20px;
+      margin: 0 auto;
+      opacity: .7;
+  }
+  .content5 ul{
+      padding-top: 60px;
+      position: relative;
+  }
+  .content5 ul li img{
+      width: 48%;
+      height: 255PX;
+      position: absolute; 
+      cursor: pointer;
+
+  }
+  .content5 ul li img:nth-child(2){
+      opacity: 0;
+  }
+  .content5 ul li:nth-child(1) img{
+    left: 0;
+    top: 40PX;
+  }
+  .content5 ul li:nth-child(2) img{
+    right: 0;
+    top: 40PX;
+  }
+  .content5 ul li:nth-child(3) img{
+    left: 0;
+    top: 325PX;
+  }
+  .content5 ul li:nth-child(4) img{
+    right: 0;
+    top: 325PX;
+  }
+  .content5 ul li img:nth-child(2):hover {
+      opacity: 1;
+  }
+  /* content5结束 */
+  .content6{
+      width: 58%;
+      height: 580px;
+      padding-top: 70px;
+      margin: 0 auto;
+      background-color: red;
+  }
+  .content6 form {
+    border-width: 1px;
+    border-color: rgb(20, 20, 20);
+    border-style: solid;
+    border-radius: 10px;
+    opacity: 0.5;
+    position: absolute;
+    width: 350px;
+    height: 450px;
+  }
+  .content6 form h4 {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+  
+
+  
+
+
         
-  
-  
+ 
