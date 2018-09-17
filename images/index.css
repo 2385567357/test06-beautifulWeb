@@ -300,25 +300,113 @@
   /* content5结束 */
   .content6{
       width: 58%;
-      height: 580px;
+      height: 640px;
       padding-top: 70px;
       margin: 0 auto;
-      background-color: red;
+      position: relative;
   }
   .content6 form {
     border-width: 1px;
-    border-color: rgb(20, 20, 20);
+    border-color: rgba(20, 20, 20, .2);
     border-style: solid;
     border-radius: 10px;
-    opacity: 0.5;
     position: absolute;
-    width: 350px;
+    width: 370px;
     height: 450px;
   }
   .content6 form h4 {
     margin-top: 30px;
     margin-bottom: 35px;
+    opacity: .7;
   }
+  .content6 form input {
+    border-width: 1px;
+    border-color: rgba(20, 20, 20, .4);
+    border-style: solid;
+    border-radius: 2px;
+    width: 268px;
+    height: 40px;
+    margin-bottom: 30px;
+    text-align: left;
+    text-indent: 2em;
+  }
+  .content6 form textarea {
+    text-align: left;
+    text-indent: 2em;
+  }
+
+  .content6 form input:nth-of-type(3){
+      margin-top: 20px;
+      background: black;
+      color: white;
+      text-align: center;
+    text-indent: 0em;
+
+  }
+  .content6 .contacts {
+      width: 45%;
+      position: absolute;
+      top: 130px;
+      right: -30px;
+  }
+  .content6 .contacts h1 {
+      font-size: 30px;
+      text-align: left;
+      margin-bottom: 20px;
+  }
+  .content6 .contacts p {
+    text-align: left;
+    opacity: .8;
+  }
+  .content6 .contacts>p{
+    margin-bottom: 60px;
+  }
+  .content6 .contacts>ul>li:nth-of-type(1) img {
+    position: absolute;
+    left: 0;
+  }
+  .content6 .contacts>ul>li:nth-of-type(2) img {
+    position: absolute;
+    left: 0;
+    top: 250px;
+  }
+  .content6 .contacts>ul>li:nth-of-type(3) img {
+    position: absolute;
+    left: 0;
+    top: 310px;
+
+  }
+  .content6 .contacts>ul>li:nth-of-type(1) p {
+    margin-left: 50px;
+    font-size: 15px;
+  }
+  .content6 .contacts>ul>li:nth-of-type(2) p {
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .content6 .contacts>ul>li:nth-of-type(3) p {
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: 42px;
+  }
+/* .content6结束 */
+footer {
+    height: 310px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+footer .inf {
+    width: 60%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+footer .inf ul li {
+    text-align: left;
+}
+
+
   
 
   
