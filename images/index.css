@@ -395,6 +395,8 @@ footer {
     height: 310px;
     color: white;
     background-color: rgb(20, 20, 20);
+    position: relative;
+
 }
 footer .inf {
     width: 60%;
@@ -402,10 +404,36 @@ footer .inf {
     display: flex;
     justify-content: space-around;
 }
-footer .inf ul li {
-    text-align: left;
+footer .inf ul h4 {
+    opacity: .8;
 }
 
+footer .inf ul li {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 25px;
+    opacity: .4;
+}
+footer .inf ul:nth-of-type(2) li {
+    text-indent: 3em;
+}
+.enjoy {
+    text-align: left;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    opacity: .8;
+}
+.enjoy h4 {
+text-align: left;
+margin-bottom: 30px;
+}
+.enjoy P {
+    width: 60%;
+    text-align: left;
+    margin-bottom: 30px;
+    opacity: .6;
+}
 
   
 
